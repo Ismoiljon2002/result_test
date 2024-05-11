@@ -1,0 +1,90 @@
+* {
+  font-family: -apple-system,
+    'BlinkMacSystemFont',
+    sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden !important;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 15px #0000ff55;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-muted {
+  color: #747474 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.btn-primary {
+  background-color: #0129E3;
+  border: 1px solid #0129E3;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #0129E3;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 18px;
+  border: none;
+  overflow: hidden !important;
+}
+
+.card-header > p {
+  margin: 0;
+}
+
+
+
+/* ====  SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+  cursor: pointer;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#0129E3, #242541);
+  border-radius: 6px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #242541;
+  transition: 0.3s ease;
+}
+
+
+/* Container width settings */
+@media (min-width: 1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 85% !important;
+  }
+}

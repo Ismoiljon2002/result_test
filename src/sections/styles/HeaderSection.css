@@ -1,0 +1,66 @@
+.header-card {
+  position: relative;
+  background-image: linear-gradient(135deg, #379FF2 1.53%, #022FE4 90.79%);
+  color: #fff;
+  margin: 20px 0 80px;
+  padding: 70px 40px 50px;
+  border-radius: 26px;
+}
+.header-card::after {
+  content: "";
+  background-image: url("../../assets/question-circle.png");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 10%;
+}
+.header-card .question-circle {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 10px;
+}
+.header-card h1 {
+  z-index: 2;
+  font-size: 60px;
+  line-height: 63px;
+  letter-spacing: -2%;
+  font-weight: 500;
+  padding: 20px 100px;
+}
+.header-card > .btn {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 200px;
+}
+.header-card .btn-group .btn {
+  padding: 30px 60px;
+  margin: 30px 30px 80px;
+  font-weight: 500;
+  border-radius: 16px !important;
+  color: #050B2B;
+}
+.header-card .btn-group .btn svg {
+  color: #0129E3;
+  margin-right: 10px;
+}
+.header-card .feature-cards .card {
+  width: 320px;
+  color: #fff;
+  text-align: left;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.5019607843);
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.header-card .feature-cards .card h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.header-card .feature-cards .card p {
+  font-weight: 400;
+}/*# sourceMappingURL=HeaderSection.css.map */

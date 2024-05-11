@@ -1,0 +1,220 @@
+@import '../../assets/base';
+
+.home {
+
+    .filter-card {
+        padding: 10px 5px;
+
+        .card-header {
+            background-color: #fff;
+            border: none;
+
+            h4 {
+                width: 65%;
+                color: $header-color;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 22px;
+                letter-spacing: -.2px;
+            }
+
+            .btn {
+                width: 35%;
+                font-size: 14px;
+                font-weight: 600;
+                letter-spacing: -.2px;
+                color: $red;
+                background-color: #fff;
+                border: none;
+                padding: 0;
+
+                &:hover {
+                    border: 1px solid $red;
+                }
+            }
+        }
+
+        input[type=search] {
+            background-color: $bg-light;
+            color: $base-text;
+            border-radius: 12px;
+            border: none;
+            padding: 20px;
+            margin-bottom: 20px;
+
+            &:focus {box-shadow: none;}
+        }
+        .input-group-text {
+            border: none;
+            padding: 20px 20px 20px 0;
+            margin-bottom: 20px;
+            border-radius: 12px;
+        }
+
+    }
+
+    .messaging-area {
+        h2 {
+            color: $header-color;
+            font-size: 50px;
+            line-height: 52.5px;
+            letter-spacing: -2px;
+            width: 65%;
+        }
+
+        .dropdown-toggle {
+            color: $muted-text;
+            background-color: #fff;
+            font-weight: 500;
+            border-radius: 12px;
+            padding: 20px 40px;
+
+            &::after {
+                display: none;
+            }
+        }
+
+        input {
+            border: none;
+            box-shadow: none;
+            border-radius: 16px !important;
+            padding: 30px;
+            margin-right: 10px;
+        }
+
+        .btn[type=search] {
+            border-radius: 16px !important;
+            padding: 30px 60px;
+            font-size: 16px;
+            font-weight: 500;
+
+            svg {
+                margin-right: 10px;
+            }
+        }
+
+    }
+
+    .individual-messaging-card {
+
+        margin-top: 50px;
+
+        >.card-header {
+            color: #fff;
+            background-image: $linear-gradient;
+            padding: 15px 24px;
+        }
+
+        .doctor .card {
+            border-top-left-radius: 0;
+            background-color: $base-blue;
+            color: #fff;
+
+            .card-header {
+                border-bottom: 1px solid #FFFFFF1A
+            }
+        }
+
+        .client .card {
+            border-top-right-radius: 0;
+
+            .card-header {
+                color: $base-blue;
+            }
+        }
+
+        .message-card {
+            border-radius: 14px;
+            background-color: $bg-light;
+            padding: 20px 20px 0;
+            color: $base-text;
+            font-weight: 500;
+            letter-spacing: 0.1px;
+            font-size: 14px;
+
+            >.card-header {
+                padding: 0 0 10px;
+                background-color: transparent;
+                font-weight: 500;
+
+                .text-muted {
+                    font-size: 16px;
+                }
+            }
+
+            .card-body {
+                padding: 10px 0 0;
+            }
+        }
+
+        .avatar-img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            border: 2px solid $base-blue;
+            margin-right: 10px;
+        }
+
+        .gender-indigator {
+            color: #fff;
+            font-size: 30px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            padding: 10px 20px;
+            margin: 0 0 auto 10px;
+            background-color: #1760D7;
+
+            &.female {
+                background-color: $red;
+            }
+        }
+
+        .more-btn {
+            font-size: 14px;
+            font-weight: 600;
+            color: $muted-text;
+            background-color: $bg-light;
+            border-radius: 12px;
+            padding: 20px 40px;
+            width: 100%;
+        }
+
+
+    }
+
+    .pagination {
+        width: 70%;
+        margin: 50px auto 0;
+        justify-content: space-between;
+
+        :first-child,
+        :last-child {
+            .page-link {
+                background-color: $base-blue;
+                color: #fff;
+            }
+        }
+
+        .page-item.active .page-link {
+            color: $base-blue;
+            border: 1px solid $base-blue;
+            background-color: #fff;
+        }
+
+        .page-item.disabled .page-link {
+            color: $muted-text;
+            background-color: #fff;
+        }
+
+        .page-link {
+            font-weight: 600;
+            color: $base-text;
+            padding: 15px 25px;
+            font-size: 14px;
+            border-radius: 12px !important;
+            border: none;
+        }
+    }
+
+}

@@ -1,0 +1,176 @@
+.home .filter-card {
+  padding: 10px 5px;
+}
+.home .filter-card .card-header {
+  background-color: #fff;
+  border: none;
+}
+.home .filter-card .card-header h4 {
+  width: 65%;
+  color: #050B2B;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: -0.2px;
+}
+.home .filter-card .card-header .btn {
+  width: 35%;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  color: #DE303A;
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+.home .filter-card .card-header .btn:hover {
+  border: 1px solid #DE303A;
+}
+.home .filter-card input[type=search] {
+  background-color: #f8f8f8;
+  color: #050B2B;
+  border-radius: 12px;
+  border: none;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.home .filter-card input[type=search]:focus {
+  box-shadow: none;
+}
+.home .filter-card .input-group-text {
+  border: none;
+  padding: 20px 20px 20px 0;
+  margin-bottom: 20px;
+  border-radius: 12px;
+}
+.home .messaging-area h2 {
+  color: #050B2B;
+  font-size: 50px;
+  line-height: 52.5px;
+  letter-spacing: -2px;
+  width: 65%;
+}
+.home .messaging-area .dropdown-toggle {
+  color: #747474;
+  background-color: #fff;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 20px 40px;
+}
+.home .messaging-area .dropdown-toggle::after {
+  display: none;
+}
+.home .messaging-area input {
+  border: none;
+  box-shadow: none;
+  border-radius: 16px !important;
+  padding: 30px;
+  margin-right: 10px;
+}
+.home .messaging-area .btn[type=search] {
+  border-radius: 16px !important;
+  padding: 30px 60px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.home .messaging-area .btn[type=search] svg {
+  margin-right: 10px;
+}
+.home .individual-messaging-card {
+  margin-top: 50px;
+}
+.home .individual-messaging-card > .card-header {
+  color: #fff;
+  background-image: linear-gradient(135deg, #379FF2 1.53%, #022FE4 90.79%);
+  padding: 15px 24px;
+}
+.home .individual-messaging-card .doctor .card {
+  border-top-left-radius: 0;
+  background-color: #0129E3;
+  color: #fff;
+}
+.home .individual-messaging-card .doctor .card .card-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
+}
+.home .individual-messaging-card .client .card {
+  border-top-right-radius: 0;
+}
+.home .individual-messaging-card .client .card .card-header {
+  color: #0129E3;
+}
+.home .individual-messaging-card .message-card {
+  border-radius: 14px;
+  background-color: #f8f8f8;
+  padding: 20px 20px 0;
+  color: #050B2B;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  font-size: 14px;
+}
+.home .individual-messaging-card .message-card > .card-header {
+  padding: 0 0 10px;
+  background-color: transparent;
+  font-weight: 500;
+}
+.home .individual-messaging-card .message-card > .card-header .text-muted {
+  font-size: 16px;
+}
+.home .individual-messaging-card .message-card .card-body {
+  padding: 10px 0 0;
+}
+.home .individual-messaging-card .avatar-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #0129E3;
+  margin-right: 10px;
+}
+.home .individual-messaging-card .gender-indigator {
+  color: #fff;
+  font-size: 30px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  padding: 10px 20px;
+  margin: 0 0 auto 10px;
+  background-color: #1760D7;
+}
+.home .individual-messaging-card .gender-indigator.female {
+  background-color: #DE303A;
+}
+.home .individual-messaging-card .more-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: #747474;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  padding: 20px 40px;
+  width: 100%;
+}
+.home .pagination {
+  width: 70%;
+  margin: 50px auto 0;
+  justify-content: space-between;
+}
+.home .pagination :first-child .page-link,
+.home .pagination :last-child .page-link {
+  background-color: #0129E3;
+  color: #fff;
+}
+.home .pagination .page-item.active .page-link {
+  color: #0129E3;
+  border: 1px solid #0129E3;
+  background-color: #fff;
+}
+.home .pagination .page-item.disabled .page-link {
+  color: #747474;
+  background-color: #fff;
+}
+.home .pagination .page-link {
+  font-weight: 600;
+  color: #050B2B;
+  padding: 15px 25px;
+  font-size: 14px;
+  border-radius: 12px !important;
+  border: none;
+}/*# sourceMappingURL=HomeStyle.css.map */

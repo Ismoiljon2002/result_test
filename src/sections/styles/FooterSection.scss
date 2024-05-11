@@ -1,0 +1,32 @@
+@import '../../assets/_base';
+
+footer {
+    background-color: $footer-bg;
+    padding-top: 80px;
+    margin-top: 80px;
+
+    p {
+        color: $bg-light;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .nav-link {
+        display: block;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 22px;
+        letter-spacing: -.2;
+        padding-left: 0;
+
+        &:hover {
+            color: $base-blue;
+        }
+    }
+
+    .credentials {
+        padding: 40px 0 20px;
+        margin-top: 80px;
+        border-top: 1px solid #FFFFFF1A;
+    }
+}

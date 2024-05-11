@@ -1,0 +1,77 @@
+@import '../../assets/_base';
+
+.header-card {
+    position: relative;
+    background-image: $linear-gradient;
+    color: #fff;
+    margin: 20px 0 80px;
+    padding: 70px 40px 50px;
+    border-radius: 26px;
+    
+    &::after {
+        content: '';
+        background-image: url('../../assets/question-circle.png');
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        right: 10%;
+    }
+
+    .question-circle {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        right: 10px;
+    }
+
+    h1 {
+        z-index: 2;
+        font-size: 60px;
+        line-height: 63px;
+        letter-spacing: -2%;
+        font-weight: 500;
+        padding: 20px 100px;
+    }
+
+    >.btn {
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px 20px;
+        border-radius: 200px;
+    }
+
+    .btn-group .btn {
+        padding: 30px 60px;
+        margin: 30px 30px 80px;
+        font-weight: 500;
+        border-radius: 16px !important;
+        color: $base-text;
+
+        svg {
+            color: $base-blue;
+            margin-right: 10px;
+        }
+    }
+
+
+    .feature-cards .card {
+        width: 320px;
+        color: #fff;
+        text-align: left;
+        border-radius: 20px;
+        border: 1px solid #FFFFFF80;
+        background-color: rgba(#FFFFFF26, .15);
+
+        h3 {
+            font-size: 50px;
+            font-weight: 500;
+        }
+        p {
+            font-weight: 400;
+        }
+    }
+}
